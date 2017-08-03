@@ -1,0 +1,44 @@
+!.gitignore
+
+.git
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore Maven generated target folders
+target
+out
+
+# .gitignore for intellij
+.idea
+*.iml
+*.ipr
+*.iws
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+*.launch
+ivy*
+
+# .gitignore for windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# vue
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
